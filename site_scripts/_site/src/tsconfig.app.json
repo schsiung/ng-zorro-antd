@@ -1,0 +1,21 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "../out-tsc/app",
+    "baseUrl": "./",
+    "module": "es2015",
+    "types": [
+      "node"
+    ],
+    "paths": {
+      "ng-zorro-antd": [ "../../components/ng-zorro-antd.module.ts" ]
+    }
+  },
+  "exclude": [
+    "test.ts",
+    "**/*.spec.ts"
+  ],
+  "include": [
+    "../src/**/*"
+  ]
+}
